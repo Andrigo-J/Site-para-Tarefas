@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MakeIt</title>
+</head>
+<body>
+    <header>
+        <h1>MakeIt</h1>
+        <nav>
+            <ul>
+                <li><a href="/home">Home</a></li>
+                <li><a href="/about">Sobre</a></li>
+                <li><a href="/contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Bem-vindo ao MakeIt!</h2>
+        <p>Esta é uma aplicação com finalidade de cadastrar entregas para realiza-las sem perder prazos.</p>
+        <p>Você pode navegar pelas páginas usando o menu acima.</p>
+        <h3>Recursos</h3>
+        <div class="cadastrar-tarefa">
+            <form action="" method="POST">
+                <label for="tarefa">Cadastrar Entrega:</label>
+                <input type="text" id="tarefa" name="tarefa" required placeholder="Nome da entrega">
+
+                <label for="produto">produto</label>
+                <input type="" name="quantidade" id="quantidade" required placeholder="Quantidade" min="0" max="100">
+
+                <button id="btn" type="submit">Cadastrar</button>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <p>&copy; 2025 MakeIt. Todos os direitos reservados.</p>
+        <p>Desenvolvido por <span>prts_zz</span></p>
+    </footer>
+
+    <script src="../static/app.js"></script>
+</body>
+</html>
